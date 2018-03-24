@@ -117,9 +117,9 @@ router.put("/students/update", function(req, res) {
   });
 >>>>>>> parent of c58182e... cleaned up files
 });
+insertStudentData();
+db.sequelize.sync({}).then(function () {
 
-db.sequelize.sync({force:true}).then(function () {
-    insertStudentData();
     console.log("Data is synched and inserted to the database")
   })
 module.exports = router;
