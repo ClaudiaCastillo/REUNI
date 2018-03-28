@@ -1,20 +1,16 @@
 # REUNI
-An app to reunite parents with their children.
+An app to reunite parents with their children. 
+During crisis situations, the county needs an app that will automatically process and reunite parents with their children.
+For instance, when there is a fire at the public school, the children and staff must be bussed to a temporary location. At this location they will checked-in and parents will be validated and reunited with their children.
 
-# How To Run
+Deployed to Heroku.  https://warm-everglades-89771.herokuapp.com/
 
-- `npm install`
-- `./node_modules/.bin/sequelize db:create`
-- `npm start`
+To Run:
+1. `npm install`
+2. `./node_modules/.bin/sequelize db:create`
+3. `npm start`
 
 The app will be running at [http://localhost:3000](http://localhost:3000)
 
+To Test: `npm test`
 
-# How To Test
-
-`npm test`
-
-
-# How To Deploy
-
-…
