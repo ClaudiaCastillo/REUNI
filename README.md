@@ -17,6 +17,7 @@ Languages/tools used in the project:
 * Utilize PUG
 * Has a folder structure that meets MVC Paradigm
 
+# Notes
 
 To Run:
 1. `npm install`
